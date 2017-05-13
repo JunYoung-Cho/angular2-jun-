@@ -1,0 +1,20 @@
+md-toolbar {
+    background-color: #f49141;
+}
+
+md-icon {
+    color: white;
+    font-size: 40pt;
+}
+
+.mat-icon {
+    height: 100%;
+    width: 100%;
+}
+
+md-sidenav-container {
+    background: black;
+}
+md-sidenav {
+    width: 300px;
+}

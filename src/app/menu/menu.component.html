@@ -1,0 +1,10 @@
+<md-grid-list cols="5" rowHeight="50px" gutterSize="5">
+    <md-grid-tile
+            *ngFor="let menu of menus"
+            [colspan]="menu.cols"
+            [rowspan]="menu.rows"
+            [style.background]="menu.color"
+    >
+        <button md-button>{{menu.text}}</button>
+    </md-grid-tile>
+</md-grid-list>
